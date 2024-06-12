@@ -3,6 +3,7 @@ package ua.numeric.authservice.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import ua.numeric.authservice.util.Role;
 
 @Getter
 @Setter
@@ -34,4 +35,8 @@ public class User {
 
     @Column(name = "group")
     private int group;
+
+    @Column(name="role")
+    @Enumerated(EnumType.STRING)
+    private Role role;
 }

@@ -19,7 +19,8 @@ public class UserService {
         if(user.isPresent()){
             User userDetails = user.get();
             return new UserDetailsResponse(userDetails.getName(), userDetails.getSurname(), userDetails.getPatronymic(),
-                    userDetails.getRank(), userDetails.getPosition(), userDetails.getBirth(), userDetails.getGroup());
+                    userDetails.getRank(), userDetails.getPosition(), userDetails.getBirth(), userDetails.getGroup(),
+                    userDetails.getRole().toString());
         }
         return null;
     }
