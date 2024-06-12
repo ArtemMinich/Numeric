@@ -3,13 +3,12 @@ package ua.numeric.userservice.controller;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ua.numeric.userservice.dto.response.UserDetailsResponse;
 import ua.numeric.userservice.service.UserService;
 
 @RestController
 @RequestMapping(("/api/v1/users"))
 @AllArgsConstructor
-public class AuthRestController {
+public class UsersRestController {
 
     private UserService userService;
 
