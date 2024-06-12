@@ -1,4 +1,4 @@
-package ua.numeric.authservice.util;
+package ua.numeric.userservice.util;
 
 public enum Role {
     ROLE_USER,

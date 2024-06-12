@@ -1,4 +1,4 @@
-package ua.numeric.authservice;
+package ua.numeric.userservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

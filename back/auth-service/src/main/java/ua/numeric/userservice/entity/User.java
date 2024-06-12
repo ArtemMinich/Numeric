@@ -1,9 +1,9 @@
-package ua.numeric.authservice.entity;
+package ua.numeric.userservice.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import ua.numeric.authservice.util.Role;
+import ua.numeric.userservice.util.Role;
 
 @Getter
 @Setter
@@ -24,7 +24,7 @@ public class User {
     @Column(name = "patronymic")
     private String patronymic;
 
-    @Column(name = "rank")
+    @Column(name = "military_rank")
     private String rank;
 
     @Column(name = "position")
@@ -33,7 +33,7 @@ public class User {
     @Column(name = "birth")
     private String birth;
 
-    @Column(name = "group")
+    @Column(name = "study_group")
     private int group;
 
     @Column(name="role")

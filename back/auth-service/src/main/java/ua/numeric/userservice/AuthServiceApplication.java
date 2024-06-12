@@ -1,4 +1,4 @@
-package ua.numeric.authservice;
+package ua.numeric.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
