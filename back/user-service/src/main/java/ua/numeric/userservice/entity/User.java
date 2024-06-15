@@ -1,13 +1,16 @@
 package ua.numeric.userservice.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import ua.numeric.userservice.util.Role;
 
-@Getter
-@Setter
+
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
 @Table(name = "users")
 public class User {
 
